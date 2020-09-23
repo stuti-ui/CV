@@ -1,0 +1,100 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url('https://media.istockphoto.com/photos/human-hand-drawing-contact-us-on-blackboard-picture-id984585688?k=6&m=984585688&s=612x612&w=0&h=q6Jszkpz5ay1ub70I8wxUuL99_pJe-OyhFdbi7a_4Yw=');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    background-position: bottom left;
+}
+h1{
+    color:white;
+    font-size:60px;
+    text-align:left;
+    padding-left:40%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+form{
+    margin:70px auto;
+    width:650px;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div{
+    margin-top:25px;
+}
+label{
+    display:inline-block;
+    width:120px;
+    text-align:left;
+    color:white;
+    font-size:20px;
+    padding-right:20px;
+}
+input,textarea{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:rgba(189,189,189,0.3);
+    width:400px;
+    color:white;
+    vertical-align: top;;
+
+}
+.button1{
+    text-decoration:none;
+    border:none;
+    background:white;
+    color:black;
+    font-weight:100;
+    padding:10px;
+    transition:all 0.5s ease 0;
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20;
+
+}
+.sidenav{
+    
+    background-repeat:no-repeat;
+    display:none;
+    height:100%;
+    width:250px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: white;
+    overflow-x:hidden;
+    padding-top:60px;
+}
+span{
+    color:white;
+
+}
+.sidenav a{
+    padding:30px 20px 8px 32px ;
+    text-decoration:none;
+    font-size:25px;
+    color:grey;
+    display:block;
+
+
+}
+.sidenav a:hover{
+    color:orange;
+
+}
+.sidenav .closebtn{
+    position:absolute;
+    color:black;
+    top: 0;
+    right: 25px;
+    font-size:40px;
+    margin-left:50px;
+
+}
+img{
+    width:85%;
+    height:25%;
+    padding-top: 80%;
+    padding-left:8%;
+}
